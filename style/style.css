@@ -189,4 +189,95 @@
     font-weight: 700;
    color: rgba(108, 108, 108, 1);
 }
+.popular-see{
+    font-size: 1rem;
+    font-weight: 700;
+    color:rgba(224, 44, 110, 0.897);
+    margin-left: 1080px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
     /* Popular Collection Css style ends here  */
+
+    /* Featured product section css style starts here  */
+
+    .featured-container{
+        max-width: 1280px;
+        margin:0 auto;
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .image-content{
+        width:42%;
+       
+    }
+    .image-content img{
+        width:100%;
+        padding:20px;
+        border-radius: 7px;
+    }
+    .featured-text-container{
+        width:49%;
+        padding:50px;
+    }
+    .feature-title{
+        color: rgba(10, 8, 38, 1);
+        font-size: 2.3rem;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .feature-description{
+        color: rgba(108, 108, 108, 1);
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .btn-feature{
+        padding:10px 24px;
+        color: rgba(255, 255, 255, 1);
+        font-size: 1rem;
+        font-weight: 700;
+        background: rgba(224, 44, 109, 1);
+        border:none;
+    }
+    /* Featured product section css style ends here  */
+
+    /* footer section css style starts here  */
+    .influence{
+       max-width: 1440px;
+       min-height: 240px;
+       margin-top: 80px;
+       background: rgba(10, 8, 38, 1);
+       
+    }
+    .footer-container{
+        color:white;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-title{
+        color: rgba(255, 255, 255, 1);
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: 50px;
+    }
+    .footer-container >p {
+        font-family: Manrope;
+        font-size: 0.9rem;
+        font-weight: 700;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .footer-icon{
+        filter:grayscale(100);
+        align-items: center;
+        margin-right: 17px;
+        margin-top: 16px;
+    }
+    
+    /* footer section css style ends here  */

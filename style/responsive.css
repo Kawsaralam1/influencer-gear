@@ -19,6 +19,22 @@ gap:20px;
     grid-template-columns:repeat(2,1fr);
     justify-items: center;
 }
+.popular-see{
+    font-size: 1rem;
+    font-weight: 700;
+    color:rgba(224, 44, 110, 0.897);
+    margin-left: 150px;
+    margin-top: 20px;
+   margin-bottom: 20px;
+}
+ .footer-container{
+        justify-items: center;
+    }
+
+
+
+
+
 }
 
 
@@ -41,7 +57,7 @@ gap:20px;
 .nav-font-icon{
     display:none;
 }
- .banner{
+ .banner,  .featured-container{
     flex-direction:column-reverse;
     justify-items: center;
     align-items: center;
@@ -89,4 +105,30 @@ gap:20px;
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 20px;
+}
+.popular-see{
+    font-size: 1rem;
+    font-weight: 700;
+    color:rgba(224, 44, 110, 0.897);
+    margin-left: 150px;
+    margin-top: 20px;
+   margin-bottom: 20px;
+}
+  .featured-text-container{
+        width:100%;
+        padding:5px;
+    }
+.image-content{
+        width:100%;
+       
+    }
+
+.footer-container{
+        justify-items: center;
+    }
+
+
+
+
+
 }
