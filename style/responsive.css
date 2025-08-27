@@ -14,9 +14,11 @@
 justify-items: center;
 align-items: center;
 gap:20px;
-  
 }
-
+.card-container{
+    grid-template-columns:repeat(2,1fr);
+    justify-items: center;
+}
 }
 
 
@@ -74,4 +76,17 @@ gap:20px;
   align-items: center;
   gap:10px;
 }
+.card-container{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 20px;
+    padding:10px 05px;
+}
+.card{
+    width:100%;
+}
+.card-item{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
